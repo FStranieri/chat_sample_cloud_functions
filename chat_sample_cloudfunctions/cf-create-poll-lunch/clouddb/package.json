@@ -1,0 +1,16 @@
+{
+  "name": "cloud_db_functions_demo",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node handler.js"
+  },
+  "dependencies": {
+    "@agconnect/database-server": "^1.0.6"
+  },
+  "keywords": [],
+  "author": "Francesco Stranieri",
+  "license": "ISC",
+  "main": "handler.js"
+}
