@@ -4,6 +4,16 @@ This repository is containing all the `Cloud Functions` we used in the [CHAT APP
 
 About [HUAWEI Cloud Functions](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-cloudfunction-guidancen-0000001324585185)
 
+# What You Will Need
+
+## Hardware Requirements
+
+- A computer running a text editor or IDE for JS development
+
+## Software Requirements
+
+- Node.js v10.12.0 or later
+
 # SETUP
 
 1) each project contains a folder named `resource`, you need to upload your [credentials file](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-cloudfunction-download-credentials-0000001328608158) into it;
