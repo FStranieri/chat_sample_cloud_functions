@@ -6,9 +6,25 @@ About [HUAWEI Cloud Functions](https://developer.huawei.com/consumer/en/doc/deve
 
 # SETUP
 
-1) Create a new `Cloud Function` following this [guide](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-cloudfunction-create-0000001058511532);
-2) each project contains a file `handler.zip`, you need to upload it into the `CODE` section;
-3) follow the specific `SETUP` below for each `Cloud Function`.
+1) each project contains a folder named `resource`, you need to upload your [credentials file](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-cloudfunction-download-credentials-0000001328608158) into it;
+2) edit the constant `credentialPath` into each `CloudDBZoneWrapper` file with the real value;
+3) build each project with `node` running `npm install` and then `npm run build`;
+4) archive all the files into a zip file named `handler.zip` like the following structure:
+    
+    handler.zip
+      
+      |---- handler.js
+      
+      |---- node_modules
+      
+      |---- resource
+      
+      |---- model
+      
+      |----...;
+5) create a new `Cloud Function` on `AGC Console` following this [guide](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-cloudfunction-create-0000001058511532);
+6) into the 'CODE' section upload the zip file `handler.zip`;
+7) follow the specific `SETUP` below for each `Cloud Function`.
 
 # ADD USER
 
